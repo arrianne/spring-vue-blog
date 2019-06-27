@@ -22,4 +22,11 @@ public class PostService {
 
     }
 
+    //    Inserting some posts to try this out
+
+
+    public void insert(Post post) {
+        postRepository.save(post);
+    }
+
 }
